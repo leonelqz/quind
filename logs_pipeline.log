@@ -1,0 +1,65 @@
+2025-03-06 04:24:26,073 - INFO - Ejecutando pipeline para tabla: film
+2025-03-06 04:24:26,074 - INFO - Limpiando encabezados
+2025-03-06 04:24:26,074 - INFO - Limpiando enteros, col: film_id
+2025-03-06 04:24:26,076 - INFO - Limpiando enteros, col: release_year
+2025-03-06 04:24:26,077 - INFO - Limpiando enteros, col: language_id
+2025-03-06 04:24:26,078 - INFO - Limpiando enteros, col: original_language_id
+2025-03-06 04:24:39,317 - INFO - Ejecutando pipeline para tabla: film
+2025-03-06 04:24:39,318 - INFO - Limpiando encabezados
+2025-03-06 04:24:39,318 - INFO - Limpiando enteros, col: film_id
+2025-03-06 04:24:39,319 - INFO - Limpiando enteros, col: release_year
+2025-03-06 04:24:39,322 - INFO - Limpiando enteros, col: language_id
+2025-03-06 04:24:39,323 - INFO - Limpiando enteros, col: original_language_id
+2025-03-06 04:24:39,329 - INFO - Limpiando enteros, col: rental_duration
+2025-03-06 04:24:39,330 - INFO - Limpiando enteros, col: length
+2025-03-06 04:24:39,331 - INFO - Limpiando enteros, col: num_voted_users
+2025-03-06 04:24:39,332 - INFO - Limpiando decimales, col: rental_rate
+2025-03-06 04:24:39,334 - INFO - Limpiando decimales, col: replacement_cost
+2025-03-06 04:24:39,336 - INFO - Casteando fechas, col: last_update
+2025-03-06 04:24:39,338 - INFO - Eliminando whitespaces en strings, col: title
+2025-03-06 04:24:39,339 - INFO - Eliminando whitespaces en strings, col: description
+2025-03-06 04:24:39,340 - INFO - Eliminando whitespaces en strings, col: rating
+2025-03-06 04:24:39,340 - INFO - Eliminando whitespaces en strings, col: special_features
+2025-03-06 04:24:39,341 - INFO - Eliminando posibles duplicados
+2025-03-06 04:24:39,342 - INFO - 
+2025-03-06 04:24:39,342 - INFO - Ejecutando pipeline para tabla: inventory
+2025-03-06 04:24:39,343 - INFO - Limpiando encabezados
+2025-03-06 04:24:39,343 - INFO - Limpiando enteros, col: inventory_id
+2025-03-06 04:24:39,346 - INFO - Limpiando enteros, col: film_id
+2025-03-06 04:24:39,348 - INFO - Limpiando enteros, col: store_id
+2025-03-06 04:24:39,351 - INFO - Casteando fechas, col: last_update
+2025-03-06 04:24:39,353 - INFO - Eliminando posibles duplicados
+2025-03-06 04:24:39,354 - INFO - 
+2025-03-06 04:24:39,354 - INFO - Ejecutando pipeline para tabla: rental
+2025-03-06 04:24:39,354 - INFO - Limpiando encabezados
+2025-03-06 04:24:39,355 - INFO - Limpiando enteros, col: rental_id
+2025-03-06 04:24:39,363 - INFO - Limpiando enteros, col: inventory_id
+2025-03-06 04:24:39,371 - INFO - Limpiando enteros, col: customer_id
+2025-03-06 04:24:39,379 - INFO - Limpiando enteros, col: staff_id
+2025-03-06 04:24:39,391 - INFO - Casteando fechas, col: rental_date
+2025-03-06 04:24:39,461 - INFO - Casteando fechas, col: return_date
+2025-03-06 04:24:39,533 - INFO - Casteando fechas, col: last_update
+2025-03-06 04:24:39,537 - INFO - Eliminando posibles duplicados
+2025-03-06 04:24:39,539 - INFO - 
+2025-03-06 04:24:39,539 - INFO - Ejecutando pipeline para tabla: customer
+2025-03-06 04:24:39,539 - INFO - Limpiando encabezados
+2025-03-06 04:24:39,539 - INFO - Limpiando enteros, col: customer_id
+2025-03-06 04:24:39,540 - INFO - Limpiando enteros, col: store_id
+2025-03-06 04:24:39,541 - INFO - Limpiando enteros, col: address_id
+2025-03-06 04:24:39,543 - INFO - Limpiando enteros, col: customer_id_old
+2025-03-06 04:24:39,549 - INFO - Casteando fechas, col: create_date
+2025-03-06 04:24:39,551 - INFO - Casteando fechas, col: last_update
+2025-03-06 04:24:39,553 - INFO - Eliminando whitespaces en strings, col: first_name
+2025-03-06 04:24:39,554 - INFO - Eliminando whitespaces en strings, col: last_name
+2025-03-06 04:24:39,555 - INFO - Eliminando whitespaces en strings, col: email
+2025-03-06 04:24:39,556 - INFO - Eliminando whitespaces en strings, col: segment
+2025-03-06 04:24:39,557 - INFO - Eliminando posibles duplicados
+2025-03-06 04:24:39,558 - INFO - 
+2025-03-06 04:24:39,558 - INFO - Ejecutando pipeline para tabla: store
+2025-03-06 04:24:39,558 - INFO - Limpiando encabezados
+2025-03-06 04:24:39,558 - INFO - Limpiando enteros, col: store_id
+2025-03-06 04:24:39,559 - INFO - Limpiando enteros, col: manager_staff_id
+2025-03-06 04:24:39,559 - INFO - Limpiando enteros, col: address_id
+2025-03-06 04:24:39,560 - INFO - Casteando fechas, col: last_update
+2025-03-06 04:24:39,561 - INFO - Eliminando posibles duplicados
+2025-03-06 04:24:39,562 - INFO - 
